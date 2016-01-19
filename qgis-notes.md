@@ -47,6 +47,9 @@ Change all three to the projection you'd like to use.
 #### Processing Toolbox
 View > Panels > Processing Toolbox
 
+#### Zoom Factor
+QGIS > Preferences > MapTools > Zoom Factor = ~1.1 ish for better zooming on Macs
+
 #### Plugins
 Plugins > Open and Install Plugins > ... 
 
@@ -107,9 +110,21 @@ or a 'mask layer,' such as a shape file you enter.
 Raster > Exctraction > Contour...
 
 #### Terrain Analysis
-Slope -- z factor, a correction factor for calculating slope. this is coordinate system specific (apparently?) Here it is 10000, the actual number "doesn't really matter."
+*Slope* -- z factor, a correction factor for calculating slope. this is coordinate system specific (apparently?) Here it is 10000, the actual number "doesn't really matter."
 
-Aspect -- calculates direction of slope, degrees from 0. Caution: value 10, 10 degrees from 0, and 350 degrees from 0. Despite these two angles (both 10 degrees from north) only being 20 degrees apart, numerically they are much farther apart... *think* before analysis.
+*Aspect* -- calculates direction of slope, degrees from 0. Caution: value 10, 10 degrees from 0, and 350 degrees from 0. Despite these two angles (both 10 degrees from north) only being 20 degrees apart, numerically they are much farther apart... *think* before analysis.
+
+*Hillshade* -- presents a hillshade map, illuminated by a specified sun angle. (azimuth, and altitude)
+
+*Ruggedness Index* -- produces a relative index by looking at surrounding pixels for relative elevation.
+
+### Print Composer 
+For outputting maps to file.
+
+Add new map > then drag data frame.
+
+To move things within the data frame go to: Layout > Move Content *Really useful, why didn't I know this before!?*
+
 
 # Ideas/ notes for PhD/ Life
 
@@ -118,5 +133,9 @@ Useful/ interesting tip. use one band (say band 5, red from Landsat) from three 
 
 ## GPS points -- cycle, walking tracks, photomaps.
 GPS Tools plugin! For Garmin? and phone apps?
+
+## Ruggedness Index on MODIS Mosaic of Greenland (MoG)
+Try this, not sure whether the ruggedness algorithm does the right thing? As in, what is its search window?
+May have to smooth the results...!
 
 
