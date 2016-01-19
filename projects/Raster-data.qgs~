@@ -1,0 +1,615 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.12.1-Lyon">
+  <title></title>
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" checked="Qt::Checked" id="clip_120160119144503912" name="clip-1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Checked" id="merged20160119143940993" name="merged">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="n51_w003_3arc_v2__1_20160119143125448" name="n51_w003_3arc_v2 (1)">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="0" checked="Qt::Unchecked" id="n51_w002_3arc_v220160119143125428" name="n51_w002_3arc_v2">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>degrees</units>
+    <extent>
+      <xmin>-3.07172726026865117</xmin>
+      <ymin>50.90240174582707056</ymin>
+      <xmax>-0.93465952477359449</xmax>
+      <ymax>52.13872192338619271</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>0</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <layer_coordinate_transform_info/>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>n51_w002_3arc_v220160119143125428</item>
+      <item>n51_w003_3arc_v2__1_20160119143125448</item>
+      <item>merged20160119143940993</item>
+      <item>clip_120160119144503912</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="clip-1" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="clip_120160119144503912" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="merged" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="merged20160119143940993" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="n51_w003_3arc_v2 (1)" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="n51_w003_3arc_v2__1_20160119143125448" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="false" checked="Qt::Unchecked" name="n51_w002_3arc_v2" showFeatureCount="0">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="n51_w002_3arc_v220160119143125428" visible="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers layercount="4">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>clip_120160119144503912</id>
+      <datasource>./clip-1.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>clip-1</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer gradient="BlackToWhite" opacity="1" alphaBand="-1" type="singlebandgray" grayBand="1">
+          <rasterTransparency/>
+          <contrastEnhancement>
+            <minValue>40</minValue>
+            <maxValue>219</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>merged20160119143940993</id>
+      <datasource>../data/ELEVATION/merged.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>merged</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="255" classificationMinMaxOrigin="User" band="1" classificationMin="0" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="0" label="0.000000" color="#28369a"/>
+              <item alpha="255" value="15.9375" label="15.937500" color="#00c932"/>
+              <item alpha="255" value="31.875" label="31.875000" color="#1ed368"/>
+              <item alpha="255" value="47.8125" label="47.812500" color="#5ee074"/>
+              <item alpha="255" value="63.75" label="63.750000" color="#a2eb82"/>
+              <item alpha="255" value="79.6875" label="79.687500" color="#dff892"/>
+              <item alpha="255" value="95.625" label="95.625000" color="#f6e595"/>
+              <item alpha="255" value="111.562" label="111.562500" color="#c8b276"/>
+              <item alpha="255" value="127.5" label="127.500000" color="#a27e5e"/>
+              <item alpha="255" value="143.438" label="143.437500" color="#8f6154"/>
+              <item alpha="255" value="159.375" label="159.375000" color="#a27d74"/>
+              <item alpha="255" value="175.312" label="175.312500" color="#b2968b"/>
+              <item alpha="255" value="191.25" label="191.250000" color="#c7b0aa"/>
+              <item alpha="255" value="207.188" label="207.187500" color="#dbcdca"/>
+              <item alpha="255" value="223.125" label="223.125000" color="#ece4e2"/>
+              <item alpha="255" value="239.062" label="239.062500" color="#ffffff"/>
+              <item alpha="255" value="255" label="255.000000" color="#ffffff"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>n51_w002_3arc_v220160119143125428</id>
+      <datasource>../data/ELEVATION/n51_w002_3arc_v2.tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>n51_w002_3arc_v2</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="250" classificationMinMaxOrigin="User" band="1" classificationMin="-1" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="-1" label="-1.000000" color="#0000ff"/>
+              <item alpha="255" value="0.6817" label="0.681700" color="#e9e7e9"/>
+              <item alpha="255" value="2.3383" label="2.338300" color="#e4e2e4"/>
+              <item alpha="255" value="4.02" label="4.020000" color="#e1dfe1"/>
+              <item alpha="255" value="5.7017" label="5.701700" color="#dddbdd"/>
+              <item alpha="255" value="7.3583" label="7.358300" color="#d9d7d9"/>
+              <item alpha="255" value="9.04" label="9.040000" color="#d8d6d8"/>
+              <item alpha="255" value="10.7217" label="10.721700" color="#d4d2d4"/>
+              <item alpha="255" value="12.3783" label="12.378300" color="#cfcdcf"/>
+              <item alpha="255" value="14.06" label="14.060000" color="#cccccc"/>
+              <item alpha="255" value="15.7417" label="15.741700" color="#c8c8c8"/>
+              <item alpha="255" value="17.3983" label="17.398300" color="#c3c3c3"/>
+              <item alpha="255" value="19.08" label="19.080000" color="#c0c0c0"/>
+              <item alpha="255" value="20.7617" label="20.761700" color="#bcbcbc"/>
+              <item alpha="255" value="22.4183" label="22.418300" color="#b7b7b7"/>
+              <item alpha="255" value="24.1" label="24.100000" color="#b5b5b5"/>
+              <item alpha="255" value="25.7817" label="25.781700" color="#b2b2b2"/>
+              <item alpha="255" value="27.4383" label="27.438300" color="#adadad"/>
+              <item alpha="255" value="29.12" label="29.120000" color="#acacab"/>
+              <item alpha="255" value="30.8017" label="30.801700" color="#aaa7a4"/>
+              <item alpha="255" value="32.4583" label="32.458300" color="#a69f9b"/>
+              <item alpha="255" value="34.14" label="34.140000" color="#a69a93"/>
+              <item alpha="255" value="35.8217" label="35.821700" color="#a3938b"/>
+              <item alpha="255" value="37.4783" label="37.478300" color="#9f8c81"/>
+              <item alpha="255" value="39.16" label="39.160000" color="#9e8778"/>
+              <item alpha="255" value="40.8417" label="40.841700" color="#9c8170"/>
+              <item alpha="255" value="42.4983" label="42.498300" color="#977967"/>
+              <item alpha="255" value="44.18" label="44.180000" color="#967460"/>
+              <item alpha="255" value="45.8617" label="45.861700" color="#936f5a"/>
+              <item alpha="255" value="47.5183" label="47.518300" color="#8f6953"/>
+              <item alpha="255" value="49.2" label="49.200000" color="#8c654c"/>
+              <item alpha="255" value="50.8817" label="50.881700" color="#8a6045"/>
+              <item alpha="255" value="52.5383" label="52.538300" color="#86593e"/>
+              <item alpha="255" value="54.22" label="54.220000" color="#835538"/>
+              <item alpha="255" value="55.9017" label="55.901700" color="#804f32"/>
+              <item alpha="255" value="57.5583" label="57.558300" color="#7c492a"/>
+              <item alpha="255" value="59.24" label="59.240000" color="#794625"/>
+              <item alpha="255" value="60.9217" label="60.921700" color="#764220"/>
+              <item alpha="255" value="62.5783" label="62.578300" color="#733d1b"/>
+              <item alpha="255" value="64.26" label="64.260000" color="#713917"/>
+              <item alpha="255" value="65.9417" label="65.941700" color="#6e3412"/>
+              <item alpha="255" value="67.5983" label="67.598300" color="#6a2f0d"/>
+              <item alpha="255" value="69.28" label="69.280000" color="#6a2e0c"/>
+              <item alpha="255" value="70.9617" label="70.961700" color="#6a2c0c"/>
+              <item alpha="255" value="72.6183" label="72.618300" color="#6b2b0a"/>
+              <item alpha="255" value="74.3" label="74.300000" color="#6c2a0a"/>
+              <item alpha="255" value="75.9817" label="75.981700" color="#6c280a"/>
+              <item alpha="255" value="77.6383" label="77.638300" color="#6c2709"/>
+              <item alpha="255" value="79.32" label="79.320000" color="#6d2609"/>
+              <item alpha="255" value="81.0017" label="81.001700" color="#6d2408"/>
+              <item alpha="255" value="82.6583" label="82.658300" color="#6e2208"/>
+              <item alpha="255" value="84.34" label="84.340000" color="#6f2108"/>
+              <item alpha="255" value="86.0217" label="86.021700" color="#6f1f07"/>
+              <item alpha="255" value="87.6783" label="87.678300" color="#721c06"/>
+              <item alpha="255" value="89.36" label="89.360000" color="#721a06"/>
+              <item alpha="255" value="91.0417" label="91.041700" color="#731805"/>
+              <item alpha="255" value="92.6983" label="92.698300" color="#741504"/>
+              <item alpha="255" value="94.38" label="94.380000" color="#751504"/>
+              <item alpha="255" value="96.0617" label="96.061700" color="#751404"/>
+              <item alpha="255" value="97.7183" label="97.718300" color="#751103"/>
+              <item alpha="255" value="99.4" label="99.400000" color="#761002"/>
+              <item alpha="255" value="101.082" label="101.081700" color="#760d02"/>
+              <item alpha="255" value="102.738" label="102.738300" color="#7a0701"/>
+              <item alpha="255" value="104.42" label="104.420000" color="#7d0400"/>
+              <item alpha="255" value="106.102" label="106.101700" color="#810400"/>
+              <item alpha="255" value="107.758" label="107.758300" color="#870800"/>
+              <item alpha="255" value="109.44" label="109.440000" color="#8d0e01"/>
+              <item alpha="255" value="111.122" label="111.121700" color="#911101"/>
+              <item alpha="255" value="112.778" label="112.778300" color="#971702"/>
+              <item alpha="255" value="114.46" label="114.460000" color="#9d1e02"/>
+              <item alpha="255" value="116.142" label="116.141700" color="#a22302"/>
+              <item alpha="255" value="117.798" label="117.798300" color="#a92a02"/>
+              <item alpha="255" value="119.48" label="119.480000" color="#ae3102"/>
+              <item alpha="255" value="121.162" label="121.161700" color="#b33902"/>
+              <item alpha="255" value="122.818" label="122.818300" color="#ba4202"/>
+              <item alpha="255" value="124.5" label="124.500000" color="#c04a02"/>
+              <item alpha="255" value="126.182" label="126.181700" color="#c75302"/>
+              <item alpha="255" value="127.838" label="127.838300" color="#ce5c02"/>
+              <item alpha="255" value="129.52" label="129.520000" color="#d36602"/>
+              <item alpha="255" value="131.202" label="131.201700" color="#d76e02"/>
+              <item alpha="255" value="132.858" label="132.858300" color="#dc7a02"/>
+              <item alpha="255" value="134.54" label="134.540000" color="#e28402"/>
+              <item alpha="255" value="136.222" label="136.221700" color="#e78f02"/>
+              <item alpha="255" value="137.878" label="137.878300" color="#ee9b02"/>
+              <item alpha="255" value="139.56" label="139.560000" color="#f4a602"/>
+              <item alpha="255" value="141.242" label="141.241700" color="#f7af03"/>
+              <item alpha="255" value="142.898" label="142.898300" color="#f5b608"/>
+              <item alpha="255" value="144.58" label="144.580000" color="#eeb60e"/>
+              <item alpha="255" value="146.262" label="146.261700" color="#e4b413"/>
+              <item alpha="255" value="147.918" label="147.918300" color="#d9b218"/>
+              <item alpha="255" value="149.6" label="149.600000" color="#cfb11c"/>
+              <item alpha="255" value="151.282" label="151.281700" color="#c5b01d"/>
+              <item alpha="255" value="152.938" label="152.938300" color="#baac22"/>
+              <item alpha="255" value="154.62" label="154.620000" color="#b0aa24"/>
+              <item alpha="255" value="156.302" label="156.301700" color="#a6a626"/>
+              <item alpha="255" value="157.958" label="157.958300" color="#9ba329"/>
+              <item alpha="255" value="159.64" label="159.640000" color="#93a22b"/>
+              <item alpha="255" value="161.322" label="161.321700" color="#89a02d"/>
+              <item alpha="255" value="162.978" label="162.978300" color="#7f9b30"/>
+              <item alpha="255" value="164.66" label="164.660000" color="#789a32"/>
+              <item alpha="255" value="166.342" label="166.341700" color="#6e9633"/>
+              <item alpha="255" value="167.998" label="167.998300" color="#629336"/>
+              <item alpha="255" value="169.68" label="169.680000" color="#579238"/>
+              <item alpha="255" value="171.362" label="171.361700" color="#4c8e3a"/>
+              <item alpha="255" value="173.018" label="173.018300" color="#3f8b3b"/>
+              <item alpha="255" value="174.7" label="174.700000" color="#34883c"/>
+              <item alpha="255" value="176.382" label="176.381700" color="#28843c"/>
+              <item alpha="255" value="178.038" label="178.038300" color="#17823f"/>
+              <item alpha="255" value="179.72" label="179.720000" color="#0c823f"/>
+              <item alpha="255" value="181.402" label="181.401700" color="#07833c"/>
+              <item alpha="255" value="183.058" label="183.058300" color="#098937"/>
+              <item alpha="255" value="184.74" label="184.740000" color="#0e8e34"/>
+              <item alpha="255" value="186.422" label="186.421700" color="#119331"/>
+              <item alpha="255" value="188.078" label="188.078300" color="#189a2d"/>
+              <item alpha="255" value="189.76" label="189.760000" color="#1ea02b"/>
+              <item alpha="255" value="191.442" label="191.441700" color="#26a42a"/>
+              <item alpha="255" value="193.098" label="193.098300" color="#31ab2c"/>
+              <item alpha="255" value="194.78" label="194.780000" color="#3eb032"/>
+              <item alpha="255" value="196.462" label="196.461700" color="#4cb538"/>
+              <item alpha="255" value="198.118" label="198.118300" color="#5ebc42"/>
+              <item alpha="255" value="199.8" label="199.800000" color="#6ec24a"/>
+              <item alpha="255" value="201.482" label="201.481700" color="#7cc651"/>
+              <item alpha="255" value="203.138" label="203.138300" color="#8ccd59"/>
+              <item alpha="255" value="204.82" label="204.820000" color="#9ad362"/>
+              <item alpha="255" value="206.502" label="206.501700" color="#a9d76b"/>
+              <item alpha="255" value="208.158" label="208.158300" color="#b8de76"/>
+              <item alpha="255" value="209.84" label="209.840000" color="#c6e480"/>
+              <item alpha="255" value="211.522" label="211.521700" color="#d4ea8b"/>
+              <item alpha="255" value="213.178" label="213.178300" color="#e2f097"/>
+              <item alpha="255" value="214.86" label="214.860000" color="#eef4a2"/>
+              <item alpha="255" value="216.542" label="216.541700" color="#f7f8ab"/>
+              <item alpha="255" value="218.198" label="218.198300" color="#f9fcb2"/>
+              <item alpha="255" value="219.88" label="219.880000" color="#f5fcb3"/>
+              <item alpha="255" value="221.562" label="221.561700" color="#eefcb3"/>
+              <item alpha="255" value="223.218" label="223.218300" color="#e6fbb2"/>
+              <item alpha="255" value="224.9" label="224.900000" color="#e0fbb2"/>
+              <item alpha="255" value="226.582" label="226.581700" color="#d9fab2"/>
+              <item alpha="255" value="228.238" label="228.238300" color="#d1f9b1"/>
+              <item alpha="255" value="229.92" label="229.920000" color="#ccf9b2"/>
+              <item alpha="255" value="231.602" label="231.601700" color="#c6f8b2"/>
+              <item alpha="255" value="233.258" label="233.258300" color="#bff7b2"/>
+              <item alpha="255" value="234.94" label="234.940000" color="#baf7b2"/>
+              <item alpha="255" value="236.622" label="236.621700" color="#b5f6b2"/>
+              <item alpha="255" value="238.278" label="238.278300" color="#b1f5b5"/>
+              <item alpha="255" value="239.96" label="239.960000" color="#b0f4ba"/>
+              <item alpha="255" value="241.642" label="241.641700" color="#b0f3bd"/>
+              <item alpha="255" value="243.298" label="243.298300" color="#b0f2c4"/>
+              <item alpha="255" value="244.98" label="244.980000" color="#b0f2ca"/>
+              <item alpha="255" value="246.662" label="246.661700" color="#b0f2cf"/>
+              <item alpha="255" value="248.318" label="248.318300" color="#aeefd3"/>
+              <item alpha="255" value="250" label="250.000000" color="#aeefd5"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>n51_w003_3arc_v2__1_20160119143125448</id>
+      <datasource>../data/ELEVATION/n51_w003_3arc_v2 (1).tif</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>n51_w003_3arc_v2 (1)</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="1"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="0" classificationMax="250" classificationMinMaxOrigin="CumulativeCutFullExtentEstimated" band="1" classificationMin="-1" type="singlebandpseudocolor">
+          <rasterTransparency/>
+          <rastershader>
+            <colorrampshader colorRampType="INTERPOLATED" clip="0">
+              <item alpha="255" value="-1" label="-1.000000" color="#0000ff"/>
+              <item alpha="255" value="0.6817" label="0.681700" color="#0000ff"/>
+              <item alpha="255" value="2.3383" label="2.338300" color="#b0f2cf"/>
+              <item alpha="255" value="4.02" label="4.020000" color="#b0f2ca"/>
+              <item alpha="255" value="5.7017" label="5.701700" color="#b0f2c4"/>
+              <item alpha="255" value="7.3583" label="7.358300" color="#b0f3bd"/>
+              <item alpha="255" value="9.04" label="9.040000" color="#b0f4ba"/>
+              <item alpha="255" value="10.7217" label="10.721700" color="#b1f5b5"/>
+              <item alpha="255" value="12.3783" label="12.378300" color="#b5f6b2"/>
+              <item alpha="255" value="14.06" label="14.060000" color="#baf7b2"/>
+              <item alpha="255" value="15.7417" label="15.741700" color="#bff7b2"/>
+              <item alpha="255" value="17.3983" label="17.398300" color="#c6f8b2"/>
+              <item alpha="255" value="19.08" label="19.080000" color="#ccf9b2"/>
+              <item alpha="255" value="20.7617" label="20.761700" color="#d1f9b1"/>
+              <item alpha="255" value="22.4183" label="22.418300" color="#d9fab2"/>
+              <item alpha="255" value="24.1" label="24.100000" color="#e0fbb2"/>
+              <item alpha="255" value="25.7817" label="25.781700" color="#e6fbb2"/>
+              <item alpha="255" value="27.4383" label="27.438300" color="#eefcb3"/>
+              <item alpha="255" value="29.12" label="29.120000" color="#f5fcb3"/>
+              <item alpha="255" value="30.8017" label="30.801700" color="#f9fcb2"/>
+              <item alpha="255" value="32.4583" label="32.458300" color="#f7f8ab"/>
+              <item alpha="255" value="34.14" label="34.140000" color="#eef4a2"/>
+              <item alpha="255" value="35.8217" label="35.821700" color="#e2f097"/>
+              <item alpha="255" value="37.4783" label="37.478300" color="#d4ea8b"/>
+              <item alpha="255" value="39.16" label="39.160000" color="#c6e480"/>
+              <item alpha="255" value="40.8417" label="40.841700" color="#b8de76"/>
+              <item alpha="255" value="42.4983" label="42.498300" color="#a9d76b"/>
+              <item alpha="255" value="44.18" label="44.180000" color="#9ad362"/>
+              <item alpha="255" value="45.8617" label="45.861700" color="#8ccd59"/>
+              <item alpha="255" value="47.5183" label="47.518300" color="#7cc651"/>
+              <item alpha="255" value="49.2" label="49.200000" color="#6ec24a"/>
+              <item alpha="255" value="50.8817" label="50.881700" color="#5ebc42"/>
+              <item alpha="255" value="52.5383" label="52.538300" color="#4cb538"/>
+              <item alpha="255" value="54.22" label="54.220000" color="#3eb032"/>
+              <item alpha="255" value="55.9017" label="55.901700" color="#31ab2c"/>
+              <item alpha="255" value="57.5583" label="57.558300" color="#26a42a"/>
+              <item alpha="255" value="59.24" label="59.240000" color="#1ea02b"/>
+              <item alpha="255" value="60.9217" label="60.921700" color="#189a2d"/>
+              <item alpha="255" value="62.5783" label="62.578300" color="#119331"/>
+              <item alpha="255" value="64.26" label="64.260000" color="#0e8e34"/>
+              <item alpha="255" value="65.9417" label="65.941700" color="#098937"/>
+              <item alpha="255" value="67.5983" label="67.598300" color="#07833c"/>
+              <item alpha="255" value="69.28" label="69.280000" color="#0c823f"/>
+              <item alpha="255" value="70.9617" label="70.961700" color="#17823f"/>
+              <item alpha="255" value="72.6183" label="72.618300" color="#28843c"/>
+              <item alpha="255" value="74.3" label="74.300000" color="#34883c"/>
+              <item alpha="255" value="75.9817" label="75.981700" color="#3f8b3b"/>
+              <item alpha="255" value="77.6383" label="77.638300" color="#4c8e3a"/>
+              <item alpha="255" value="79.32" label="79.320000" color="#579238"/>
+              <item alpha="255" value="81.0017" label="81.001700" color="#629336"/>
+              <item alpha="255" value="82.6583" label="82.658300" color="#6e9633"/>
+              <item alpha="255" value="84.34" label="84.340000" color="#789a32"/>
+              <item alpha="255" value="86.0217" label="86.021700" color="#7f9b30"/>
+              <item alpha="255" value="87.6783" label="87.678300" color="#89a02d"/>
+              <item alpha="255" value="89.36" label="89.360000" color="#93a22b"/>
+              <item alpha="255" value="91.0417" label="91.041700" color="#9ba329"/>
+              <item alpha="255" value="92.6983" label="92.698300" color="#a6a626"/>
+              <item alpha="255" value="94.38" label="94.380000" color="#b0aa24"/>
+              <item alpha="255" value="96.0617" label="96.061700" color="#baac22"/>
+              <item alpha="255" value="97.7183" label="97.718300" color="#c5b01d"/>
+              <item alpha="255" value="99.4" label="99.400000" color="#cfb11c"/>
+              <item alpha="255" value="101.082" label="101.081700" color="#d9b218"/>
+              <item alpha="255" value="102.738" label="102.738300" color="#e4b413"/>
+              <item alpha="255" value="104.42" label="104.420000" color="#eeb60e"/>
+              <item alpha="255" value="106.102" label="106.101700" color="#f5b608"/>
+              <item alpha="255" value="107.758" label="107.758300" color="#f7af03"/>
+              <item alpha="255" value="109.44" label="109.440000" color="#f4a602"/>
+              <item alpha="255" value="111.122" label="111.121700" color="#ee9b02"/>
+              <item alpha="255" value="112.778" label="112.778300" color="#e78f02"/>
+              <item alpha="255" value="114.46" label="114.460000" color="#e28402"/>
+              <item alpha="255" value="116.142" label="116.141700" color="#dc7a02"/>
+              <item alpha="255" value="117.798" label="117.798300" color="#d76e02"/>
+              <item alpha="255" value="119.48" label="119.480000" color="#d36602"/>
+              <item alpha="255" value="121.162" label="121.161700" color="#ce5c02"/>
+              <item alpha="255" value="122.818" label="122.818300" color="#c75302"/>
+              <item alpha="255" value="124.5" label="124.500000" color="#c04a02"/>
+              <item alpha="255" value="126.182" label="126.181700" color="#ba4202"/>
+              <item alpha="255" value="127.838" label="127.838300" color="#b33902"/>
+              <item alpha="255" value="129.52" label="129.520000" color="#ae3102"/>
+              <item alpha="255" value="131.202" label="131.201700" color="#a92a02"/>
+              <item alpha="255" value="132.858" label="132.858300" color="#a22302"/>
+              <item alpha="255" value="134.54" label="134.540000" color="#9d1e02"/>
+              <item alpha="255" value="136.222" label="136.221700" color="#971702"/>
+              <item alpha="255" value="137.878" label="137.878300" color="#911101"/>
+              <item alpha="255" value="139.56" label="139.560000" color="#8d0e01"/>
+              <item alpha="255" value="141.242" label="141.241700" color="#870800"/>
+              <item alpha="255" value="142.898" label="142.898300" color="#810400"/>
+              <item alpha="255" value="144.58" label="144.580000" color="#7d0400"/>
+              <item alpha="255" value="146.262" label="146.261700" color="#7a0701"/>
+              <item alpha="255" value="147.918" label="147.918300" color="#760d02"/>
+              <item alpha="255" value="149.6" label="149.600000" color="#761002"/>
+              <item alpha="255" value="151.282" label="151.281700" color="#751103"/>
+              <item alpha="255" value="152.938" label="152.938300" color="#751404"/>
+              <item alpha="255" value="154.62" label="154.620000" color="#751504"/>
+              <item alpha="255" value="156.302" label="156.301700" color="#741504"/>
+              <item alpha="255" value="157.958" label="157.958300" color="#731805"/>
+              <item alpha="255" value="159.64" label="159.640000" color="#721a06"/>
+              <item alpha="255" value="161.322" label="161.321700" color="#721c06"/>
+              <item alpha="255" value="162.978" label="162.978300" color="#6f1f07"/>
+              <item alpha="255" value="164.66" label="164.660000" color="#6f2108"/>
+              <item alpha="255" value="166.342" label="166.341700" color="#6e2208"/>
+              <item alpha="255" value="167.998" label="167.998300" color="#6d2408"/>
+              <item alpha="255" value="169.68" label="169.680000" color="#6d2609"/>
+              <item alpha="255" value="171.362" label="171.361700" color="#6c2709"/>
+              <item alpha="255" value="173.018" label="173.018300" color="#6c280a"/>
+              <item alpha="255" value="174.7" label="174.700000" color="#6c2a0a"/>
+              <item alpha="255" value="176.382" label="176.381700" color="#6b2b0a"/>
+              <item alpha="255" value="178.038" label="178.038300" color="#6a2c0c"/>
+              <item alpha="255" value="179.72" label="179.720000" color="#6a2e0c"/>
+              <item alpha="255" value="181.402" label="181.401700" color="#6a2f0d"/>
+              <item alpha="255" value="183.058" label="183.058300" color="#6e3412"/>
+              <item alpha="255" value="184.74" label="184.740000" color="#713917"/>
+              <item alpha="255" value="186.422" label="186.421700" color="#733d1b"/>
+              <item alpha="255" value="188.078" label="188.078300" color="#764220"/>
+              <item alpha="255" value="189.76" label="189.760000" color="#794625"/>
+              <item alpha="255" value="191.442" label="191.441700" color="#7c492a"/>
+              <item alpha="255" value="193.098" label="193.098300" color="#804f32"/>
+              <item alpha="255" value="194.78" label="194.780000" color="#835538"/>
+              <item alpha="255" value="196.462" label="196.461700" color="#86593e"/>
+              <item alpha="255" value="198.118" label="198.118300" color="#8a6045"/>
+              <item alpha="255" value="199.8" label="199.800000" color="#8c654c"/>
+              <item alpha="255" value="201.482" label="201.481700" color="#8f6953"/>
+              <item alpha="255" value="203.138" label="203.138300" color="#936f5a"/>
+              <item alpha="255" value="204.82" label="204.820000" color="#967460"/>
+              <item alpha="255" value="206.502" label="206.501700" color="#977967"/>
+              <item alpha="255" value="208.158" label="208.158300" color="#9c8170"/>
+              <item alpha="255" value="209.84" label="209.840000" color="#9e8778"/>
+              <item alpha="255" value="211.522" label="211.521700" color="#9f8c81"/>
+              <item alpha="255" value="213.178" label="213.178300" color="#a3938b"/>
+              <item alpha="255" value="214.86" label="214.860000" color="#a69a93"/>
+              <item alpha="255" value="216.542" label="216.541700" color="#a69f9b"/>
+              <item alpha="255" value="218.198" label="218.198300" color="#aaa7a4"/>
+              <item alpha="255" value="219.88" label="219.880000" color="#acacab"/>
+              <item alpha="255" value="221.562" label="221.561700" color="#adadad"/>
+              <item alpha="255" value="223.218" label="223.218300" color="#b2b2b2"/>
+              <item alpha="255" value="224.9" label="224.900000" color="#b5b5b5"/>
+              <item alpha="255" value="226.582" label="226.581700" color="#b7b7b7"/>
+              <item alpha="255" value="228.238" label="228.238300" color="#bcbcbc"/>
+              <item alpha="255" value="229.92" label="229.920000" color="#c0c0c0"/>
+              <item alpha="255" value="231.602" label="231.601700" color="#c3c3c3"/>
+              <item alpha="255" value="233.258" label="233.258300" color="#c8c8c8"/>
+              <item alpha="255" value="234.94" label="234.940000" color="#cccccc"/>
+              <item alpha="255" value="236.622" label="236.621700" color="#cfcdcf"/>
+              <item alpha="255" value="238.278" label="238.278300" color="#d4d2d4"/>
+              <item alpha="255" value="239.96" label="239.960000" color="#d8d6d8"/>
+              <item alpha="255" value="241.642" label="241.641700" color="#d9d7d9"/>
+              <item alpha="255" value="243.298" label="243.298300" color="#dddbdd"/>
+              <item alpha="255" value="244.98" label="244.980000" color="#e1dfe1"/>
+              <item alpha="255" value="246.662" label="246.661700" color="#e4e2e4"/>
+              <item alpha="255" value="248.318" label="248.318300" color="#e9e7e9"/>
+              <item alpha="255" value="250" label="250.000000" color="#ebe9eb"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=375,-111,431,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:27700</ProjectCrs>
+      <ProjectCRSID type="int">2437</ProjectCRSID>
+    </SpatialRefSys>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList"/>
+      <LayerSnappingEnabledList type="QStringList"/>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList"/>
+      <LayerSnapToList type="QStringList"/>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList"/>
+    </Digitizing>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+  </properties>
+  <visibility-presets/>
+</qgis>

@@ -42,6 +42,8 @@ Change all three to the projection you'd like to use.
 
 27700 -- British National Grid, for OS data
 
+4326 -- WGS84, Psuedo Mercator
+
 #### Processing Toolbox
 View > Panels > Processing Toolbox
 
@@ -53,8 +55,11 @@ Plugins > Open and Install Plugins > ...
 
     - GPS Tools
         Can create points, lines and polygons from GPS data -- and can also do vice versa. Therefore, can create paths into the GPS and follow it.
+        
+    - Terrain Analysis
+        Can create various analyses of terrain data -- slope, ruggedness, etc.
 
-#### Digitising
+### Digitising Vector Data
 
 ##### Creating a new Shapefile
 New shapefile layer button (with asterisk) > type (points) > save to working directory ('projects/')
@@ -73,7 +78,7 @@ Includes tools for reshaping, donuting, splitting.
 Settings > Snapping Options > On/ Off/ etc. (with thresholds too.)
     Enable topological editing too. This means that when creating/ digitising shapes, they will line up, if sharing common edge.
 
-##### Layer Properties
+#### Layer Properties
 Right-click on layer > Properties
 
 Can adjust symbology, and other options.
@@ -81,6 +86,30 @@ Can adjust symbology, and other options.
         e.g. if you save a .qml style file where it uses the column 'type' to decide land cover type; where 1 is green, 2, blue, etc., if you use this style file on any shape file that has a type column/field and the correct attribute is will work.
 
 
+### Working with Raster Data
+Set CRS to Psuedo Mercator (4326)
+
+#### Symbology
+Changing symbology for Raster data is slightly diff than for Vector files -- pseudocolour for renditions that aren't B&W
+
+#### To merge adjacent raster files
+Raster > Miscellaneous > Merge...
+
+No data value -- only tick this box if we have areas of no data, and it changes these values to the number specified.
+
+#### Clipping a raster 
+Raster > Extraction > Clipper...
+
+When clipping you can use an 'extent' -- this can be a drawn square, whilst tool box is open (and this fills in 'extent'); 
+or a 'mask layer,' such as a shape file you enter.
+
+#### Contouring
+Raster > Exctraction > Contour...
+
+#### Terrain Analysis
+Slope -- z factor, a correction factor for calculating slope. this is coordinate system specific (apparently?) Here it is 10000, the actual number "doesn't really matter."
+
+Aspect -- calculates direction of slope, degrees from 0. Caution: value 10, 10 degrees from 0, and 350 degrees from 0. Despite these two angles (both 10 degrees from north) only being 20 degrees apart, numerically they are much farther apart... *think* before analysis.
 
 # Ideas/ notes for PhD/ Life
 
@@ -88,6 +117,6 @@ Can adjust symbology, and other options.
 Useful/ interesting tip. use one band (say band 5, red from Landsat) from three different years say, and then view them as RGB. R: Band 5 oldest; B: Band 5 older; G: Band 5 current. Obviously only shows you change in band 5 (or whatever band you use). There are more indepth change detection algorithms available.
 
 ## GPS points -- cycle, walking tracks, photomaps.
-GPS Tools plugin!
+GPS Tools plugin! For Garmin? and phone apps?
 
 
